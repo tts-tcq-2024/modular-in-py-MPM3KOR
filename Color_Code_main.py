@@ -1,4 +1,4 @@
-from Color_Detection_Test import *
+from Color_Code_Detection_Test import *
 from PairNumber_Detection_test import *
 # Telecommunication Color and Pair number Detection
 
