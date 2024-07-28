@@ -1,4 +1,5 @@
-from main import *
+from Color_Code_main import *
+from Exceptions_Messages import *
 
 def get_pair_number_from_color(major_color, minor_color):
   try:
