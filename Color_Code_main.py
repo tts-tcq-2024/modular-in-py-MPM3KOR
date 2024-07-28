@@ -1,5 +1,5 @@
-from Color_Code_Detection_Test import test_number_to_pair
-from PairNumber_Detection_Test import test_pair_to_number
+import Color_Code_Detection_Test
+import PairNumber_Detection_Test
 # Telecommunication Color and Pair number Detection
 
 MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
@@ -11,9 +11,9 @@ def color_pair_to_string(major_color, minor_color):
 
 
 if __name__ == '__main__':
-  test_number_to_pair(4, 'White', 'Brown')
-  test_number_to_pair(5, 'White', 'Slate')
-  test_pair_to_number('Black', 'Orange', 12)
-  test_pair_to_number('Violet', 'Slate', 25)
-  test_pair_to_number('Red', 'Orange', 7)
+  Color_Code_Detection_Test.test_number_to_pair(4, 'White', 'Brown')
+  Color_Code_Detection_Test.test_number_to_pair(5, 'White', 'Slate')
+  PairNumber_Detection_Test.test_pair_to_number('Black', 'Orange', 12)
+  PairNumber_Detection_Test.test_pair_to_number('Violet', 'Slate', 25)
+  PairNumber_Detection_Test.test_pair_to_number('Red', 'Orange', 7)
   
