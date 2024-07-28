@@ -1,4 +1,4 @@
-from Color_Detection import *
+from Color_Code_Detection import *
 
 def test_number_to_pair(pair_number,expected_major_color, expected_minor_color):
   
