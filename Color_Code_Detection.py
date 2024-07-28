@@ -1,4 +1,4 @@
-from Color_Code_main
+import Color_Code_main
 from Exceptions_Messages import Exception_major_index_OutOfRange , Exception_minor_index_OutOfRange
 
 def get_color_from_pair_number(pair_number):
