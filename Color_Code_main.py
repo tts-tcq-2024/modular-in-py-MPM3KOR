@@ -1,5 +1,5 @@
-from Color_Code_Detection_Test import *
-from PairNumber_Detection_test import *
+from Color_Code_Detection_Test import test_number_to_pair
+from PairNumber_Detection_Test import test_pair_to_number
 # Telecommunication Color and Pair number Detection
 
 MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
