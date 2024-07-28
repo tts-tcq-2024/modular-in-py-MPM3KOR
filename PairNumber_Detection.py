@@ -1,5 +1,5 @@
-from Color_Code_main import *
-from Exceptions_Messages import *
+from Color_Code_main import color_pair_to_string
+from Exceptions_Messages import Exception_major_index_OutOfRange , Exception_minor_index_OutOfRange
 
 def get_pair_number_from_color(major_color, minor_color):
   try:
