@@ -1,4 +1,5 @@
-
+from Color_Detection_Test import *
+from PairNumber_Detection_test import *
 # Telecommunication Color and Pair number Detection
 
 MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
@@ -15,4 +16,4 @@ if __name__ == '__main__':
   test_pair_to_number('Black', 'Orange', 12)
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
-  print('Done :)')
+  
