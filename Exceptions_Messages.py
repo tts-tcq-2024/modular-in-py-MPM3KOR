@@ -1,6 +1,4 @@
-from main import *
-
-
+#Exception Messages
 
 def Exception_major_index_OutOfRange():
     raise Exception('Major index out of range')
