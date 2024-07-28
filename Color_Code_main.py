@@ -1,0 +1,19 @@
+import Color_Code_Detection_Test
+import PairNumber_Detection_Test
+# Telecommunication Color and Pair number Detection
+
+MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
+MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
+
+
+def color_pair_to_string(major_color, minor_color):
+  return f'{major_color} {minor_color}'
+
+
+if __name__ == '__main__':
+  Color_Code_Detection_Test.test_number_to_pair(4, 'White', 'Brown')
+  Color_Code_Detection_Test.test_number_to_pair(5, 'White', 'Slate')
+  PairNumber_Detection_Test.test_pair_to_number('Black', 'Orange', 12)
+  PairNumber_Detection_Test.test_pair_to_number('Violet', 'Slate', 25)
+  PairNumber_Detection_Test.test_pair_to_number('Red', 'Orange', 7)
+  
