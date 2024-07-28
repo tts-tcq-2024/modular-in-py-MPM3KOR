@@ -4,7 +4,7 @@ from Exceptions_Messages import Exception_major_index_OutOfRange , Exception_min
 def get_color_from_pair_number(pair_number):
   zero_based_pair_number = pair_number - 1
   
-  major_index = zero_based_pair_number // len(MINOR_COLORS)
+  major_index = zero_based_pair_number // len(Color_Code_main.MINOR_COLORS)
   if major_index >= len(Color_Code_main.MAJOR_COLORS):
     Exception_major_index_OutOfRange()
   
